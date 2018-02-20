@@ -1,0 +1,29 @@
+{
+  "name": "advertisement-scanner-async",
+  "version": "1.0.0",
+  "description": "Basic example - using netrunr-gapi-async JS SDK to capture Bluetooth advertisement",
+  "main": "appAdvScannerAsync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiomware/advertisement-scanner-async.git"
+  },
+  "keywords": [
+    "Netrunr Bluetooth Gateway",
+    "Bluetooth Low Energy"
+  ],
+  "author": "Axiomware Systems Inc <swdev@axiomware.com> (http://www.axiomware.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axiomware/advertisement-scanner-async/issues"
+  },
+  "homepage": "https://github.com/axiomware/advertisement-scanner-async#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.0.1",
+    "netrunr-gapi-async": "^1.0.1"
+  }
+}
